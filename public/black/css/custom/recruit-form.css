@@ -1,0 +1,145 @@
+.form-group select option {
+	background-color:#27293d;
+}
+/*This styles for file type input tag*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.btn-file>input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-size: 23px;
+    cursor: pointer;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    direction: ltr;
+}
+.fileinput {
+    display: inline-block;
+    margin-bottom: 9px;
+}
+.fileinput .form-control {
+    display: inline-block;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    vertical-align: middle;
+    cursor: text;
+}
+
+.fileinput .thumbnail {
+    display: inline-block;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 250px;
+    box-shadow: 0 1px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.fileinput .thumbnail.img-circle {
+    border-radius: 50%;
+    max-width: 100px;
+}
+.fileinput .thumbnail>img {
+    max-height: 100%;
+}
+
+.fileinput .btn {
+    vertical-align: middle;
+}
+
+.fileinput-exists .fileinput-new, .fileinput-new .fileinput-exists {
+    display: none;
+}
+.fileinput-inline .fileinput-controls {
+    display: inline;
+}
+.fileinput-filename {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.form-control .fileinput-filename {
+    vertical-align: bottom;
+}
+.fileinput.input-group {
+    display: table;
+}
+.fileinput.input-group>* {
+    position: relative;
+    z-index: 2;
+}
+
+.fileinput.input-group>.btn-file {
+    z-index: 1;
+}
+.fileinput-new.input-group .btn-file,
+.fileinput-new .input-group .btn-file {
+    border-radius: 0 4px 4px 0;
+}
+
+.fileinput-new.input-group .btn-file.btn-xs,
+.fileinput-new .input-group .btn-file.btn-xs,
+.fileinput-new.input-group .btn-file.btn-sm,
+.fileinput-new.input-group .btn-group-sm>.btn-file.btn,
+.fileinput-new .input-group .btn-file.btn-sm,
+.fileinput-new .input-group .btn-group-sm>.btn-file.btn {
+    border-radius: 0 3px 3px 0;
+}
+
+.fileinput-new.input-group .btn-file.btn-lg,
+.fileinput-new.input-group .btn-group-lg>.btn-file.btn,
+.fileinput-new .input-group .btn-file.btn-lg,
+.fileinput-new .input-group .btn-group-lg>.btn-file.btn {
+    border-radius: 0 6px 6px 0;
+}
+
+.form-group.has-warning .fileinput .fileinput-preview {
+    color: #ff8d72;
+}
+
+.form-group.has-warning .fileinput .thumbnail {
+    border-color: #ff8d72;
+}
+
+.form-group.has-error .fileinput .fileinput-preview {
+    color: #fd5d93;
+}
+
+.form-group.has-error .fileinput .thumbnail {
+    border-color: #fd5d93;
+}
+
+.form-group.has-success .fileinput .fileinput-preview {
+    color: #00f2c3;
+}
+
+.form-group.has-success .fileinput .thumbnail {
+    border-color: #00f2c3;
+}
+.thumbnail {
+    border: 0 none;
+    border-radius: 3px;
+    padding: 0;
+}
+
+/*End of styles for file type input tag*/
+#recruit-form-css{
+    width: 75%;
+}
+@media only screen and (max-width: 600px) {
+    #recruit-form-css{
+        width: 100%;
+    }
+}
+.form-group .recruit-form-field{
+    font-weight: 600;
+    color: #dbdbe0;
+    font-size: 14px;
+}
